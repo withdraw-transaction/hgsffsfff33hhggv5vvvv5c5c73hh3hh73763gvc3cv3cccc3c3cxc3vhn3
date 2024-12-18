@@ -1,0 +1,283 @@
+body {
+    background-image: radial-gradient(circle at 29% 55%, rgba(131,128,128, 0.05) 0%, rgba(131,128,128, 0.05) 4%,transparent 4%, transparent 44%,transparent 44%, transparent 100%),radial-gradient(circle at 85% 89%, rgba(131,128,128, 0.05) 0%, rgba(131,128,128, 0.05) 51%,transparent 51%, transparent 52%,transparent 52%, transparent 100%),radial-gradient(circle at 6% 90%, rgba(131,128,128, 0.05) 0%, rgba(131,128,128, 0.05) 53%,transparent 53%, transparent 64%,transparent 64%, transparent 100%),radial-gradient(circle at 35% 75%, rgba(131,128,128, 0.05) 0%, rgba(131,128,128, 0.05) 6%,transparent 6%, transparent 98%,transparent 98%, transparent 100%),radial-gradient(circle at 56% 75%, rgba(131,128,128, 0.05) 0%, rgba(131,128,128, 0.05) 16%,transparent 16%, transparent 23%,transparent 23%, transparent 100%),radial-gradient(circle at 42% 0%, rgba(131,128,128, 0.05) 0%, rgba(131,128,128, 0.05) 3%,transparent 3%, transparent 26%,transparent 26%, transparent 100%),radial-gradient(circle at 29% 28%, rgba(131,128,128, 0.05) 0%, rgba(131,128,128, 0.05) 51%,transparent 51%, transparent 75%,transparent 75%, transparent 100%),radial-gradient(circle at 77% 21%, rgba(131,128,128, 0.05) 0%, rgba(131,128,128, 0.05) 35%,transparent 35%, transparent 55%,transparent 55%, transparent 100%),radial-gradient(circle at 65% 91%, rgba(131,128,128, 0.05) 0%, rgba(131,128,128, 0.05) 46%,transparent 46%, transparent 76%,transparent 76%, transparent 100%),linear-gradient(45deg, rgb(192,189,189),rgb(252,252,252));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: row;
+    padding: 7rem;
+    box-shadow: 10px 10px 20px #babecc,
+    -10px -10px 20px #ffffff ;
+    border-radius: 62% 38% 51% 49% / 74% 54% 42% 23% ;
+}
+
+.first-section {
+    background-image: linear-gradient(41deg, rgba(107, 107, 107, 0.04) 0%, rgba(107, 107, 107, 0.04) 8%,rgba(31, 31, 31, 0.04) 8%, rgba(31, 31, 31, 0.04) 100%),linear-gradient(9deg, rgba(228, 228, 228, 0.04) 0%, rgba(228, 228, 228, 0.04) 62%,rgba(54, 54, 54, 0.04) 62%, rgba(54, 54, 54, 0.04) 100%),linear-gradient(124deg, rgba(18, 18, 18, 0.04) 0%, rgba(18, 18, 18, 0.04) 37%,rgba(233, 233, 233, 0.04) 37%, rgba(233, 233, 233, 0.04) 100%),linear-gradient(253deg, rgba(201, 201, 201, 0.04) 0%, rgba(201, 201, 201, 0.04) 55%,rgba(47, 47, 47, 0.04) 55%, rgba(47, 47, 47, 0.04) 100%),linear-gradient(270deg, rgba(172, 172, 172, 0.04) 0%, rgba(172, 172, 172, 0.04) 33%,rgba(26, 26, 26, 0.04) 33%, rgba(26, 26, 26, 0.04) 100%),linear-gradient(64deg, rgba(11, 11, 11, 0.04) 0%, rgba(11, 11, 11, 0.04) 38%,rgba(87, 87, 87, 0.04) 38%, rgba(87, 87, 87, 0.04) 100%),linear-gradient(347deg, rgba(199, 199, 199, 0.04) 0%, rgba(199, 199, 199, 0.04) 69%,rgba(4, 4, 4, 0.04) 69%, rgba(4, 4, 4, 0.04) 100%),linear-gradient(313deg, rgba(36, 36, 36, 0.04) 0%, rgba(36, 36, 36, 0.04) 20%,rgba(91, 91, 91, 0.04) 20%, rgba(91, 91, 91, 0.04) 100%),linear-gradient(90deg, rgb(13,30,174),rgb(35, 148, 228));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 5rem;
+     box-shadow: 10px 10px 20px #6f6f6f,
+    -10px -10px 20px #878788;
+    border-radius: 62% 38% 51% 49% / 74% 54% 42% 23% ;
+}
+
+.company-name h4 {
+    font-size: auto;
+    color: #F9F7F3;
+    text-align: center;
+}
+
+.f-section-text {
+    text-align: center;
+    padding: 4rem;
+}
+.f-section-text h4 {
+    color: #F9F7F3;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+.f-section-text h1 {
+    font-size: 3.5rem;
+    color: #FEF8EC;
+    margin-top: -1rem;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    overflow: hidden;
+    border-right: 0.15em solid white;
+    white-space: nowrap;
+    animation: typing 6s steps(40, end) infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 75%;
+    }
+}
+
+.f-section-text p {
+    color: #F9F7F3;
+}
+
+.second-section {
+    padding: 5rem;
+}
+
+.login-text {
+    text-align: center;
+}
+
+.login-text h2 {
+    color: #0E4CB0;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    font-style: normal;
+}
+.login-text p {
+    font-size: 1rem;
+    color: #636262;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.input {
+ line-height: 28px;
+ border: 2px solid transparent;
+ border-bottom-color: #777;
+ padding: .2rem 0;
+ outline: none;
+ height: 3rem;
+ width: 100%;
+ background-color: transparent;
+ color: #0d0c22;
+ transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.input:focus, input:hover {
+ outline: none;
+ padding: .2rem 1rem;
+ border-radius: 1rem;
+ border-color: #7a9cc6;
+}
+
+.input::placeholder {
+ color: #777;
+ font-size: 1rem;
+}
+
+.input:focus::placeholder {
+ opacity: 0;
+ transition: opacity .3s;
+}
+
+.checkbox-wrapper-46 input[type="checkbox"] {
+  display: none;
+  visibility: hidden;
+}
+
+.middle-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 13rem;
+    margin-top: 2rem;
+}
+.middle-text .text h4 {
+    margin-top: -0.21px;
+    color: #0E4CB0;
+}
+
+.checkbox-wrapper-46 .cbx {
+  margin: auto;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+.checkbox-wrapper-46 .cbx span {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translate3d(0, 0, 0);
+}
+.checkbox-wrapper-46 .cbx span:first-child {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border-radius: 3px;
+  transform: scale(1);
+  vertical-align: middle;
+  border: 1px solid #9098a9;
+  transition: all 0.2s ease;
+}
+.checkbox-wrapper-46 .cbx span:first-child svg {
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 16px;
+  stroke-dashoffset: 16px;
+  transition: all 0.3s ease;
+  transition-delay: 0.1s;
+  transform: translate3d(0, 0, 0);
+}
+.checkbox-wrapper-46 .cbx span:first-child:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #506eec;
+  display: block;
+  transform: scale(0);
+  opacity: 1;
+  border-radius: 50%;
+}
+.checkbox-wrapper-46 .cbx span:last-child {
+  padding-left: 8px;
+}
+.checkbox-wrapper-46 .cbx:hover span:first-child {
+  border-color: #506eec;
+}
+
+.checkbox-wrapper-46 .inp-cbx:checked + .cbx span:first-child {
+  background: #506eec;
+  border-color: #506eec;
+  animation: wave-46 0.4s ease;
+}
+.checkbox-wrapper-46 .inp-cbx:checked + .cbx span:first-child svg {
+  stroke-dashoffset: 0;
+}
+.checkbox-wrapper-46 .inp-cbx:checked + .cbx span:first-child:before {
+  transform: scale(3.5);
+  opacity: 0;
+  transition: all 0.6s ease;
+}
+
+@keyframes wave-46 {
+  50% {
+    transform: scale(0.9);
+  }
+}
+
+.button {
+    margin: auto;
+}
+
+.button {
+  height: 50px;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #252525;
+  overflow: hidden;
+  border-radius: 30px;
+  color: #333;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-txt {
+  z-index: 1;
+  font-weight: 800;
+  letter-spacing: 4px;
+}
+
+.type1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.5s ease-in-out;
+  background-color: #0E4CB0;
+  border-radius: 30px;
+  visibility: hidden;
+  height: 10px;
+  width: 10px;
+  z-index: -1;
+}
+
+.button:hover {
+  box-shadow: 1px 1px 200px #252525;
+  color: #fff;
+  border: none;
+}
+
+.type1:hover::after {
+  visibility: visible;
+  transform: scale(100) translateX(2px);
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+}
+
+footer img {
+    width: 9rem;
+}
+
+footer p {
+    font-size: 1.10rem;
+    color: rgb(0, 0, 0);
+}
+
+

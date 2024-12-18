@@ -1,0 +1,218 @@
+body{
+    background: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-weight: 00;
+    font-style: normal;
+}
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -0.2rem;
+}
+.home h5 {
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+}
+.home i {
+    color: rgb(70, 69, 69);
+}
+
+.search i{
+    color: rgb(161, 159, 159);
+}
+.search {
+    background: rgb(229, 227, 227);
+    height: 1.2rem;
+    padding: 4px 0 3px 10px;
+    letter-spacing: 3px;
+    border-radius: 3rem;
+}
+.search input {
+    background: none;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 00;
+    font-style: normal;
+    outline: none;
+    color: rgb(0, 0, 0);
+}
+.main-w {
+    display: flex;
+    justify-content: space-between;
+}
+.main {
+    color: rgb(41, 40, 40);
+    margin-top: 0.7rem;
+    font-size: 10px;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+.main-left {
+    display: flex;
+    margin-top: 0.4rem;
+    gap: 15px;
+    font-size: 12px;
+}
+.main-left .f, .fff, .ff{
+    background: rgb(231, 227, 227);
+    padding: 5px;
+    border-radius: 3px;
+}
+.main-left i {
+    color: white;
+}
+.main i {
+    color: rgb(105, 105, 105);
+}
+.f i{
+    color: rgb(131, 128, 128);
+}
+.ff i {
+    color: rgb(131, 128, 128);
+}
+.amt p {
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    margin-top: -0.3rem;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal
+}
+.icon {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+}
+.icon p {
+    font-size: 12px;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    justify-content: center;
+    margin-left: 5px;
+}
+.icon i {
+    font-size: 13px;
+    color: black;
+}
+.icon .i i {
+    background: rgb(229, 227, 227);
+    padding: 13px 14px;
+    border-radius: 50%;
+}
+.icon .ii i {
+    background: rgb(229, 227, 227);
+    padding: 13px 14px;
+    border-radius: 50%;
+}
+.icon .iii i {
+    background: rgb(229, 227, 227);
+    padding: 13px;
+    border-radius: 50%;
+}
+.icon .iiii i {
+    background: rgb(229, 227, 227);
+    padding: 13px;
+    border-radius: 50%;
+}
+
+.icon .iiiii i {
+    background: rgb(229, 227, 227);
+    padding: 13px;
+    border-radius: 50%;
+}
+
+.list {
+    display: flex;
+    color: rgb(38, 38, 38);
+    justify-content: space-evenly;
+    gap: 4rem;
+    font-weight: 500;
+}
+.coin {
+    display: flex;
+    justify-content: space-between;
+}
+.coin-main {
+    display: flex;
+}
+.coin img {
+    width:3rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.coin .name {
+ color: white;
+}
+.coin-name {
+    display: flex;
+    margin-top: -1rem;
+    gap: 5px;
+}
+.coin .name h5 {
+    color: rgb(21, 20, 20);
+    font-size: 12px;
+}
+.coin-name p {
+    font-size: 8px;
+    margin-top: 1.3rem;
+    border-radius: 7px;
+    color: rgb(164, 164, 164);
+    background: rgb(220, 220, 220);
+    padding: 4px;
+    margin-bottom: 20px;
+}
+.coin-amt {
+    display: flex;
+    margin-top: -1.8rem;
+    font-size: 10px;
+    gap: 3px;
+}
+.left-side {
+    color: rgb(0, 0, 0);
+    margin-top: -1.8rem;
+}
+.left-side p {
+    margin-top: -1rem;
+    font-size: 10px;
+    color: rgb(164, 164, 164);
+}
+
+.ww {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.ww button {
+    border: none;
+    background: none;
+    font-size: 1.07rem;
+    font-weight: 600;
+    color: rgb(7, 7, 212);
+    cursor: pointer;
+}
+
+.icon-foot {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    align-items: center;
+}
+.foot i {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.foot p {
+    font-size: 9px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
